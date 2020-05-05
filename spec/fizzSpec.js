@@ -1,8 +1,8 @@
 describe("fizzBuzz", function() {
 
        beforeEach(function() {
-       fizz = new fizzBuzz; 
-    });
+       fizzB = new fizzBuzz; 
+    })
 
     describe("returns number, fizz, buzz, fizzbuzz", function() {
        it("should exist", function() {
@@ -14,15 +14,15 @@ describe("fizzBuzz", function() {
        });
        it("should return fizz when called as fizzBuzz(9)", function() {
            var result = fizzBuzz(9)
-           expect(result).toBe("Fizz")
+           expect(result).toBe("Fizz");
        });
        it("should return buzz when called as fizzBuzz(10)", function() {
            var result = fizzBuzz(10)
-           expect(result).toBe("Buzz")
+           expect(result).toBe("Buzz");
        });
        it("should return 2 when called as fizzBuzz(2)", function() {
            var result = fizzBuzz(2)
-           expect(result).toBe(number)
+           expect(result).toBe(2);
        });
     });
 });
